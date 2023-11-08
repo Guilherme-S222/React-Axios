@@ -15,7 +15,7 @@ const Post = () => {
     const getPost = async() => {
         try{
             console.log(id);
-            const response = await blogFetch.get('/posts/${id}');
+            //const response = await blogFetch.get('/posts/${id}');
 
         } catch (error){
             console.log(error);
